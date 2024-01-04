@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98aa4b58b11e9d4ca9dd8a4bf7bb71d, type: 3}
+  m_Name: ScriptGraphState
+  m_EditorClassIdentifier: 
+  NodesState:
+  - scriptName: MasterScript_I
+    position:
+      serializedVersion: 2
+      x: 2.4
+      y: -0.79999924
+      width: 279.2
+      height: 533.6
+  - scriptName: OpeningScript
+    position:
+      serializedVersion: 2
+      x: 172.8
+      y: 627.2
+      width: 128.8
+      height: 77.599976
+  - scriptName: JAN 2020
+    position:
+      serializedVersion: 2
+      x: 297.6
+      y: -100.8
+      width: 104.79999
+      height: 76.8
+  - scriptName: FEB 2020
+    position:
+      serializedVersion: 2
+      x: 595.2
+      y: -104.8
+      width: 103.20001
+      height: 76.8
+  - scriptName: MAR 2020
+    position:
+      serializedVersion: 2
+      x: 896
+      y: -102.399994
+      width: 108
+      height: 77.6
+  - scriptName: APR 2020
+    position:
+      serializedVersion: 2
+      x: 1196
+      y: -100
+      width: 104.80005
+      height: 77.6
+  - scriptName: MAY 2020
+    position:
+      serializedVersion: 2
+      x: 1500.8
+      y: -103.2
+      width: 108
+      height: 77.6
+  - scriptName: JUN 2020
+    position:
+      serializedVersion: 2
+      x: 1796
+      y: -99.2
+      width: 105.599976
+      height: 77.6
+  - scriptName: JUL 2020
+    position:
+      serializedVersion: 2
+      x: 2091.2
+      y: -102.399994
+      width: 104
+      height: 77.6
+  - scriptName: AUG 2020
+    position:
+      serializedVersion: 2
+      x: 2396
+      y: -99.2
+      width: 106.3999
+      height: 77.6
+  - scriptName: SEP 2020
+    position:
+      serializedVersion: 2
+      x: 2694.4
+      y: -99.2
+      width: 104
+      height: 77.6
+  - scriptName: OCT 2020
+    position:
+      serializedVersion: 2
+      x: 2999.2
+      y: -108.8
+      width: 106.40015
+      height: 76.8
+  - scriptName: NOV 2020
+    position:
+      serializedVersion: 2
+      x: 3297.6
+      y: -112
+      width: 106.3999
+      height: 77.6
+  - scriptName: DEC 2020
+    position:
+      serializedVersion: 2
+      x: 3596.8
+      y: -104.8
+      width: 105.59985
+      height: 76.8
+  - scriptName: JAN 2021
+    position:
+      serializedVersion: 2
+      x: 3898.4
+      y: -100.8
+      width: 103.200195
+      height: 76.8
+  - scriptName: FEB 2021
+    position:
+      serializedVersion: 2
+      x: 4204.8
+      y: -98.399994
+      width: 101.6001
+      height: 77.6
+  - scriptName: MAR 2021
+    position:
+      serializedVersion: 2
+      x: 4499.2
+      y: -100
+      width: 106.3999
+      height: 77.6
+  - scriptName: APR 2021
+    position:
+      serializedVersion: 2
+      x: 4801.6
+      y: -100
+      width: 103.19971
+      height: 77.6
+  - scriptName: MAY 2021
+    position:
+      serializedVersion: 2
+      x: 5095.2
+      y: -100
+      width: 106.3999
+      height: 77.6
+  - scriptName: JUN 2021
+    position:
+      serializedVersion: 2
+      x: 5396.8
+      y: -94.399994
+      width: 104
+      height: 77.6
+  - scriptName: JUL 2021
+    position:
+      serializedVersion: 2
+      x: 5700.8
+      y: -96
+      width: 102.40039
+      height: 77.6
+  - scriptName: AUG 2021
+    position:
+      serializedVersion: 2
+      x: 5995.2
+      y: -94.399994
+      width: 104.799805
+      height: 77.6
+  - scriptName: SEP 2021
+    position:
+      serializedVersion: 2
+      x: 6296.8
+      y: -96
+      width: 102.40039
+      height: 77.6
+  - scriptName: OCT 2021
+    position:
+      serializedVersion: 2
+      x: 6597.6
+      y: -100
+      width: 104.799805
+      height: 77.6
+  - scriptName: NOV 2021
+    position:
+      serializedVersion: 2
+      x: 6897.6
+      y: -97.600006
+      width: 104.799805
+      height: 76.8
+  - scriptName: DEC 2021
+    position:
+      serializedVersion: 2
+      x: 7203.2
+      y: -100
+      width: 104
+      height: 77.6
+  - scriptName: 2020_Magick_Solstice
+    position:
+      serializedVersion: 2
+      x: 1797.6
+      y: -0.79999924
+      width: 276.00012
+      height: 264
+  - scriptName: Bus To School
+    position:
+      serializedVersion: 2
+      x: 2701.6
+      y: -4.799999
+      width: 194.3999
+      height: 101.6
+  - scriptName: Finding The Entrance
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 276
+      height: 389.6
+  - scriptName: Sep20DD
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 276
+      height: 165.59999
+  - scriptName: Gaining Powers
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 158.4
+      height: 101.600006
+  - scriptName: Meeting Them
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 130.4
+      height: 77.600006
+  - scriptName: EarlyDemo
+    position:
+      serializedVersion: 2
+      x: -176
+      y: 588.8
+      width: 276
+      height: 284.80005
+  - scriptName: EarlyDemoBRCExhaustFlag
+    position:
+      serializedVersion: 2
+      x: -72.8
+      y: -184
+      width: 204.8
+      height: 76.799995
+  - scriptName: Dungeon_Generic
+    position:
+      serializedVersion: 2
+      x: 522.4
+      y: 523.2
+      width: 234.39996
+      height: 220.79999
+  - scriptName: Dungeon 1
+    position:
+      serializedVersion: 2
+      x: 810.4
+      y: 512.8
+      width: 189.59998
+      height: 244.80005

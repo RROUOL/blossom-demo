@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b85ba1f6e1b0e4d8e2cbac28fb8d18, type: 3}
+  m_Name: Lif
+  m_EditorClassIdentifier: 
+  moveDescription: Hits 1 target with medium life damage.
+  consumedTurns: 2
+  elementType: 7
+  scalesWith: 3
+  defendsWith: 5
+  basePower: 35
+  HealthPointCost: 0
+  ManaPointCost: 9
+  isDamaging: 1
+  hitsAll: 0
+  recoveredStatus: 
+  inflictedStatus: 
+  inflictedBuffs: 
+  inflictedDebuffs: 
+  moveUsedSound: {fileID: 0}
+  normalHitSound: {fileID: 8300000, guid: 3bdbd01d4e1113443ab59241cfaa0a0d, type: 3}
+  superHitSound: {fileID: 8300000, guid: 78e41a67c04760144956a6684d505294, type: 3}
+  weakHitSound: {fileID: 8300000, guid: 20d75ff710c8af742bbe2f83237e0735, type: 3}
+  immuneHitSound: {fileID: 8300000, guid: fa84cfee612216a49aec1ae439e095e6, type: 3}
+  deflectHitSound: {fileID: 8300000, guid: 45e68d845aa80a64285edc1a8b0058e9, type: 3}
+  drainHitSound: {fileID: 8300000, guid: cc97c0c1859dad74bb094927710176b6, type: 3}
+  overloadHitSound: {fileID: 8300000, guid: f1b35f44ed55d6e44a46002e85476d55, type: 3}
+  damageAlert: {fileID: 2350112637641472235, guid: 4520459c840c00e43967fe28bd3bfe7e, type: 3}
+  healAlert: {fileID: 4772995313628711591, guid: 45b10a1e9d8639a41b1b873ad3d8b71a, type: 3}
+  downAlert: {fileID: 1820649259660199289, guid: e62907a511fd63148be8ccafc05e127c, type: 3}
+  bleedAlert: {fileID: 5677589005885692868, guid: f1140f464d1a056499f79427d263cf0e, type: 3}
+  burnAlert: {fileID: 3603806730685011118, guid: d83fbd3e94444ff4da508c9e74fdb2ef, type: 3}
+  gravAlert: {fileID: 503216926154752892, guid: d0cf4843cc895bb4ea1d540d1b471176, type: 3}
+  poisonAlert: {fileID: 166612446832211311, guid: 88ea710bf61ec734eba7d74d12ae92b8, type: 3}
+  frostAlert: {fileID: 2317068183832903894, guid: 79ef8231896f7394aa623abe5cea9517, type: 3}
+  shockAlert: {fileID: 6821141694619637552, guid: 1b1b4f1ff0787d84aa4ac2e8298a9925, type: 3}
+  stunAlert: {fileID: 8050288214275073251, guid: e179738aae2425748886c9820403b0aa, type: 3}
+  superEffAlert: {fileID: 8359009377380438186, guid: 8b31ded5f8c18f646b1b3a6d6f904521, type: 3}
+  weakEffAlert: {fileID: 1444805658752173033, guid: ee0a2b4ebb85e0144aa11b909ef8a9c4, type: 3}
+  immuneAlert: {fileID: 7521311847416490900, guid: 87738d178e294a54ebc1c5afdb5bd097, type: 3}
+  deflectAlert: {fileID: 8643831982360722667, guid: d54c4e5e0cf343e49b658e255c9bf3f6, type: 3}
+  drainAlert: {fileID: 740018087325740903, guid: 7a25adcc75a883445be2e3fbf7c45b06, type: 3}
+  overloadAlert: {fileID: 7274344342534644276, guid: a801d8e887b3d6942bf07e275af8aea9, type: 3}
+  missAlert: {fileID: 1522606738665113548, guid: 1a8188da67753544084b78983089fccf, type: 3}
+  chanceToMiss: 10
+  critAlert: {fileID: 2661193699357824648, guid: 90a8a4ca9171b0747bf5c48113a2efb0, type: 3}
+  chanceToCrit: 10

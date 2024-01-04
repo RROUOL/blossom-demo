@@ -1,0 +1,78 @@
+#Lorelei
+
+; Lorelei {Lorelei_SLink} [br]Oscar {Oscar_SLink} [br]Jasmine {Jasmine_SLink} [br]Lavinia {Cloud_SLink}
+
+@if Lorelei_SLink>=3
+    After spending enough time with your allies, you feel your urge to protect them growing stronger.
+    Lorelei learned Wydheal!
+    @set nullval=TeachMove(0,30);
+@endIf
+
+You've done all that you can for today.
+@set nullval=EndDay();
+@goto MasterScript_I.Start
+
+#Oscar
+You spent time with Oscar for the day.
+@set Oscar_SLink+=1
+
+@if Oscar_SLink=1
+    You and Oscar learned Flawm!
+    @set nullval=TeachMove(0,15);
+    @set nullval=TeachMove(2,15);
+@elseIf Oscar_SLink=2
+    You and Oscar learned Bluzheon!
+    @set nullval=TeachMove(0,12);
+    @set nullval=TeachMove(2,12);
+@elseIf Oscar_SLink=3
+    After spending enough time with you, Oscar begins to understand themselves better.
+    Oscar learned Wydflawm!
+    @set nullval=TeachMove(2,22);
+    @set Lorelei_SLink+=1
+@endIf
+
+@goto SLink_Manager.Lorelei
+
+#Jasmine
+You spent time with Jasmine for the day.
+@set Jasmine_SLink+=1
+
+@if Jasmine_SLink=1
+    You and Jasmine learned Cald!
+    @set nullval=TeachMove(0,18);
+    @set nullval=TeachMove(1,18);
+@elseIf Jasmine_SLink=2
+    You and Jasmine learned Garsh!
+    @set nullval=TeachMove(0,11);
+    @set nullval=TeachMove(1,11);
+@elseIf Jasmine_SLink=3
+    After spending enough time with you, Jasmine begins to understand themselves better.
+    Jasmine learned Wydcald!
+    @set nullval=TeachMove(1,25);
+    @set Lorelei_SLink+=1
+@endIf
+
+@goto SLink_Manager.Lorelei
+
+#Cloud
+You spent time with Lavinia for the day.
+@set Cloud_SLink+=1
+
+@if Cloud_SLink=1
+    You and Lavinia learned Dyne!
+    @set nullval=TeachMove(0,20);
+    @set nullval=TeachMove(3,20);
+@elseIf Cloud_SLink=2
+    You and Lavinia learned Skiver!
+    @set nullval=TeachMove(0,13);
+    @set nullval=TeachMove(3,13);
+@elseIf Cloud_SLink=3
+    After spending enough time with you, Lavinia begins to understand themselves better.
+    Lavinia learned Wydyne!
+    @set nullval=TeachMove(3,27);
+    @set Lorelei_SLink+=1
+@endIf
+
+@goto SLink_Manager.Lorelei
+
+@stop

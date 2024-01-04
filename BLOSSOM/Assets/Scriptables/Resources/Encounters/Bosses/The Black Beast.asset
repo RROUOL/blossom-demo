@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eab44fc98c835c479bd7bf49940cab6, type: 3}
+  m_Name: The Black Beast
+  m_EditorClassIdentifier: 
+  isBoss: 1
+  encounterText: The Black Beast Appears!
+  encounter:
+  - {fileID: 11400000, guid: dbc10d0f6ca181b418d74033eb63f814, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  planeMat: {fileID: 2100000, guid: 1105daa896700794581e3ecdc58efc3b, type: 2}
+  skyboxMat: {fileID: 2100000, guid: b97c849cf1eca6b44ab219d3b6e04ebb, type: 2}
+  music: {fileID: 8300000, guid: af5e363fbcb717d44b824268ad173de9, type: 3}
+  enemySound: {fileID: 8300000, guid: 4060aef96baba544d9727e3ab1a31008, type: 3}
+  playVictoryScript: 1
+  script: Dungeon 1
+  label: Victory

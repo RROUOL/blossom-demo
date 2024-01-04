@@ -1,0 +1,88 @@
+A large water fountain with a strange monument in the middle, only..
+Oscar: What's this liquid? It's bright green.
+Oscar: Let's not touch it. I wanna just go now, {G_PlayerName}. Please?
+
+@novel
+@wait 1
+
+Jasmine: You two.
+Oscar: ?!?
+You're suddenly startled by Jasmine and Lavinia, who've appeared in the doorway behind you.
+They stare at you. Despite being familiar faces, their presence doesn't comfort you - the air feels stiff and cold.
+They turn to each other to whisper. It's quiet, but in the dead silence of the room you catch it:
+Cloud: You were supposed to lock the entrance.
+Jasmine: I did.
+Cloud: Then how-
+Jasmine: I don't know. We can deal with it.
+Cloud: Do we, you know..
+Jasmine: Hm?
+Cloud: Do we have to..
+They don't finish the sentence. They both look at each other with a hint of unease.
+Oscar: Uh, hey, you two..
+They turn back to stare at you. They say nothing.
+Oscar: Umm. What's going on-
+Cloud: What do you know?
+Oscar: H-Huh?
+Cloud: What do you two know about this place?
+Jasmine begins to fiddle with one of her hairclips.
+Oscar: We don't know! Lorelei just came down here and I followed her.
+Jasmine removes the hairclip and holds it between her fingers. Her hair begins to fall over one of her eyes, obscuring it completely.
+Oscar: We're sorry if it looks like we're trying to steal your secret base or something, we-
+Jasmine: Secret base?
+Jasmine's hand trembles. Another long silence fills the room.
+Cloud: The Fountain.
+Oscar: Huh?
+Cloud: The Fountain. Did you touch it?
+Jasmine: It doesn't matter if they've touched it, it matters that they've seen it.
+Cloud: What? Wait! Jasmine don't-!
+A loud metallic chime and a bright flash reverberate through the room.
+In an instant, Jasmine's hairclip has transformed into a long, double-pronged sword. It glistens a faint blue through the darkness of the room.
+There is, once again, silence.
+@wait 1
+Oscar: ..!?
+Cloud: Jasmine...
+Jasmine: They know, Lavinia. There's nothing we can do about it. Was your sister not clear about that?
+Cloud: ...
+Jasmine stares towards you. She takes a single, slow, step towards you both.
+Oscar: We're sorry. We won't come back again, we promise.
+Jasmine takes another step.
+Oscar: Can we just go home please? I want to go home.
+Jasmine: ..!
+Jasmine suddenly pauses her approach, looking past you toward the Fountain. It's then that you finally tune into the strange noise behind you: a consistent dripping noise, liquid falling upon liquid. 
+You turn around.
+You see it.
+@wait 2
+Up on the ceiling swathed in green light, a large beast begins to phase into the room - viscous, dark fluid drips from its visage into the soft light of the fountain below, staining it.
+As it further materialises, more of its features are illuminated by the faint glow of the portal it arrives through: It's humanoid. Tall. Draped in a long, tattered, brown cloak from which sprout a pair of pale, spindly arms. Each arm ends with rended claws that wrap around its own body, twisting it into a fetal position. 
+Upon its face it dons a large, rough, rusted steel mask which envelops it's head completely, leaving only its long, matted, black hair to escape. The shape of the mask, and the outline of the face it implied to conceal, couldn't ever be of this world - a canid-like snout stretching from an otherwise ovular, human head. Gaps line the mouth of the mask, revealing jagged teeth which glisten in the faint light of the room. 
+The eyeholes of the mask appear empty before a pair of harsh green pupils peer through them, gazing to each of the stunned children. It sees you. It opens its arms wide into a large embrace of its prey, the last of its body leaving the bathing light of the portal which ushered it into the room. It screams.
+; someone could say something here to show a break in the description
+Cloud: Jasmine, move!
+The beast thrashes and falls from the ceiling, descending into the fountain below. As it crashes, the liquid spills out in a large wave which coats every surface of the room - you and Oscar shield yourself as it splashes onto the both of you.
+Cloud: Oh, my god..
+Jasmine: You..!
+Jasmine lunges towards the monster as it rises from the fountain. Without even looking, the creature effortlessly swats her away. She collides with one of the walls with a thud and falls to the ground, reduced to a meager pained grunting as she fails to regain her footing.
+The creature leans toward the injured girl, its eyes glassing over with a deep malice. It takes a position akin to pouncing, preparing to finish its prey.
+Then it looks to you. Twisted over itself, it's limbs dragging in the pool of liquid, it slowly turns to face you.
+Your skin begins to burn. You look down and see the liquid from the fountain glow brighter as it burrows across you, it's light beginning to envelop you.
+The monster dashes out of the fountain towards you, in the blink of an eye it grasps one of its hands around your throat, lifting you up above itself.
+Oscar: {G_PlayerName}! 
+The glow on Oscar's body begins to shift to a violent, orange hue, flickering and spitting out in every direction. He curls over, falling to his knees as the light consuming him shines ever harsher.
+You look back towards the monster - the skin of its other arm begins to bubble and break away, revealing a large, silver, longsword burrowing from out of where a bone may have been were it a human. Its arm reforms, gripping the sword in its hand. It freezes in place, staring at you for a moment before thrusting the blade through your chest. The sword pierces you effortlessly, red shimmering across its blade as it makes a clean stab through.
+Oscar: N-No!
+Cloud: ..!!
+Shock courses through your body - for a moment, you see everything: 
+Oscar kneeling on the floor, reaching out towards you. 
+Jasmine turning her head away, trying not to view your fate. 
+Lavinia beginning to pull something out of her backpack: a small black flute. 
+The monster keeping it's unstaring gaze on you.
+You defy its eye contact as you look away, your vision fading.
+As you accept what's happened, you feel the burning of the fountain's liquid burrow ever deeper. It hurts.
+Then the pain fades. 
+Then your sight goes dark. 
+Then your hearing grows silent. 
+Then there is nothing.
+@wait 3
+
+@goto "Meeting Them"
+@stop

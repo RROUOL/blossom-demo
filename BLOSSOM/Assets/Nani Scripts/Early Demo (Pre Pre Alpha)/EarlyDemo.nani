@@ -1,0 +1,45 @@
+; Dialogue for all interactions in the october 2022 demo of BLOSSOM I
+
+# Introduction
+
+;Hello! You've entered the early prototype for my dissertation - "BLOSSOM - First Contact". Press 'E' to continue.
+;This is a turn-based RPG with dungeon crawling and visual novel elements.
+;There are 3 phases to the game: a visual novel interface, a first-person dungeon crawler, and a turn-based battle system.
+;You're currently experiencing the visual novel phase. You are unable to move in this screen, and read text boxes.
+;When this dialogue is exhausted, you will be prompted to walk around.
+;Use WASD to move, with 'Left Shift' & 'Spacebar' to look left & right respectively.
+;When prompted, press 'E' to interact, thereby activating another VN dialogue.
+@set nullval=BeginTeleport(0,0,0,0,0,0);
+@set nullval=ToggleUI(true,true,true);
+@adventure
+@stop
+
+# BigRoomCollision
+
+You've just entered a "Collision Trigger".
+This is a collision box which will automatically create a dialogue upon touching it.
+These are often used for story beats or before entering dangerous areas.
+You will often be prompted "Are you sure?" before being allowed to proceed.
+Like so:
+; Print the text, then immediately show choices and stop script execution.
+Are you sure you want to continue?[skipInput]
+@choice "I'm sure." goto:EarlyDemo.BRC_No
+@choice "Let's check elsewhere first." goto:EarlyDemo.BRC_Yes
+@stop
+
+# BRC_Yes
+
+You've decided to continue.
+@adventure reset:false
+
+# BRC_No
+
+You've decided to move back.
+@set "nullval=BeginTeleport(0,0,50, 0,0,0);"
+@adventure reset:false
+
+# BigRoomInteraction
+
+@adventure reset:false
+
+@stop

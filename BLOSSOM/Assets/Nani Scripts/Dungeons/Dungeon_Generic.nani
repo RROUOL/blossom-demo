@@ -1,0 +1,33 @@
+#ElevatorDoor
+
+This is the elevator you came into this world through.
+Return to the Overworld for the day?[skipInput]
+@choice "Let's get out of here." goto:.LeaveSuperstructure
+@choice "There's still something we need to do."
+@stop
+
+@adventure reset:false
+
+#DefeatedInSuperstructure
+
+@novel
+@back FadeBlack id:BlackScreen
+Your party was defeated.
+You're unable to continue further today.
+@goto "Dungeon_Generic.LeaveSuperstructure"
+
+#LeaveSuperstructure
+
+You've chosen to leave for today.
+@set nullval=EndDay();
+@goto MasterScript_I.Start
+
+#OpenChest_Room1_1
+
+@adventure reset:false
+
+#Flick_Switch
+
+@adventure reset:false
+
+@stop

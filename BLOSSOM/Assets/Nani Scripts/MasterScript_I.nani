@@ -1,0 +1,240 @@
+# Start
+@novel
+@back FadeBlack id:BlackScreen
+;@back Landscape id:Landscape
+;You have entered the MasterScript. {G_DateDay}/{G_DateMonth}/{G_DateYear}
+@set nullval=ToggleUI(true,true,false);
+
+@if G_DateYear==2020
+        @if G_DateMonth==6
+                @set nullval=ChangeDate("Saturday");
+                Saturday 20th June 2020 - Opening: Magick Solstice
+                @goto 2020_Magick_Solstice
+; ||TIMESKIP||
+        @elseif G_DateMonth==7
+                @if G_DateDay==23
+                        my birthday!
+                        @set nullval=ChangeDate("Thursday");
+                @else
+                        Nothing. {G_DateDay} July 2020
+                @endif
+        @elseif G_DateMonth==8
+                Nothing. {G_DateDay} August 2020
+        @elseif G_DateMonth==9
+                @if G_DateDay==7
+                        @set nullval=ChangeDate("Monday");
+                        ;Monday 7th September - First Day of School, Lorelei & Oscar become Magi
+                        @goto "Bus To School"
+                @elseif G_DateDay==8
+                        @set nullval=ChangeDate("Tuesday");
+                        ;Tuesday 8th September - Siddh & Emma inspect Superstructure entrance, Fountain
+                @elseif G_DateDay==9
+                        @set nullval=ChangeDate("Wednesday");
+                        A terrifying beast from a nearby dungeon plans to destroy a local town!
+                        You must reach the end of the dungeon and defeat it before time runs out.
+                        You have 3 weeks.
+                        -Controls- [br][br]Movement: WASD [br][br]Change Direction: Left Shift, Space [br][br]Menu: Tab [br][br]Interact: E [br][br]Cancel: F
+                        @set nullval=ClearPartyMoveList();
+                        @set Lorelei_SLink=0
+                        @set Oscar_SLink=0
+                        @set Jasmine_SLink=0
+                        @set Cloud_SLink=0
+                        @set nullval=RefreshParty();
+                        @goto "MasterScript_I.WhatWillYouDoToday"
+                @elseif G_DateDay==30
+                        You ran out of time to complete the dungeon.
+                        @goto "MasterScript_I.GameOver"
+                @else
+                        @set nullval=RefreshParty();
+                        @goto "MasterScript_I.WhatWillYouDoToday"
+                @endif
+        @elseif G_DateMonth==10
+@if G_DateDay==2
+            Friday 2nd October - Nuckelavee Defeated by this point, else game over + return to 9th September
+@elseif G_DateDay==24
+            Saturday 24th October - Start of Autumn Break
+@elseif G_DateDay==31
+            Saturday 31st October - Halloween
+@else
+            Nothing. {G_DateDay} October 2020
+@endif
+@elseif G_DateMonth==11
+@if G_DateDay==1
+            Sunday 1st November - End of Autumn Break
+@elseif G_DateDay==2
+            Monday 2nd November - Second Crux revealed
+@else
+            Nothing. {G_DateDay} November 2020
+@endif
+@elseif G_DateMonth==12
+@if G_DateDay==4
+            Friday 4th December - Bogillbear Defeated by this point, else game over + return to 2nd November
+@elseif G_DateDay==19
+            Saturday 19th December - Start of Winter Break
+@elseif G_DateDay==25
+            Friday 25th December - Christmas
+@else
+            Nothing. {G_DateDay} December 2020
+@endif
+@endif
+@else
+@if G_DateMonth==1
+@if G_DateDay==1
+            Friday 1st January - New Year's Day
+@elseif G_DateDay==3
+            Sunday 3rd January - End of Winter Break
+@elseif G_DateDay==4
+            Monday 4th January - Third Crux revealed
+@else
+            Nothing. {G_DateDay} January 2021
+@endif
+@elseif G_DateMonth==2
+@if G_DateDay==5
+            Friday 5th February - Black Beast Defeated by this point, else game over + return to 4th January
+@elseif G_DateDay==13
+            Saturday 13th February - Start of February Break
+@elseif G_DateDay==21
+            Sunday 21st February - End of February Break
+@elseif G_DateDay==22
+            Monday 22nd February - Fourth Crux revealed
+@else
+            Nothing. {G_DateDay} February 2021
+@endif
+@elseif G_DateMonth==3
+@if G_DateDay==19
+            Friday 19nd March - Lady Raynham Defeated by this point, else game over + return to 22nd February
+@elseif G_DateDay==27
+            Saturday 27th March - Start of Easter Break
+@else
+            Nothing. {G_DateDay} March 2021
+@endif
+@elseif G_DateMonth==4
+@if G_DateDay==4
+            Sunday 4th April - Easter Sunday
+@elseif G_DateDay==18
+            Sunday 18th April - End of Easter Break
+@elseif G_DateDay==19
+            Monday 19th April - Fifth Crux revealed
+@else
+            Nothing. {G_DateDay} April 2021
+@endif
+@elseif G_DateMonth==5
+@if G_DateDay==17
+            Friday 17th May - Vacant Medraut Defeated by this point, else game over + return to 19th April
+@elseif G_DateDay==29
+            Saturday 29th May - Start of May Break
+@else
+            Nothing. {G_DateDay} May 2021
+@endif
+@elseif G_DateMonth==6
+@if G_DateDay==4
+            Thursday 4th June - Fete
+@elseif G_DateDay==6
+            Sunday 6th June - End of May Break
+@elseif G_DateDay==7
+            Monday 7th June - Final Crux discovered
+@elseif G_DateDay==20
+            Sunday 20th June - Final Day. Dungeon entered late at night
+@elseif G_DateDay==21
+            Monday 21st June - Magick Solstice. UNIT_1023 Defeated. After battle, characters stay home sick for school that day.
+@elseif G_DateDay==22
+            Tuesday 22nd June - After school, all 4 kids sit on the hill and watch the clouds roll by. End.
+@else
+            Nothing. {G_DateDay} June 2021
+@endif
+; ||TIMESKIP||
+@elseif G_DateMonth==7
+        Nothing. July 2020
+@elseif G_DateMonth==8
+        Nothing. August 2020
+@elseif G_DateMonth==9
+@if G_DateDay==6
+            Monday 6th September - Epilogue: Kaito arrives to school
+@else
+            Nothing. {G_DateDay} September  2021
+@endif
+@endif
+@endif
+
+;End of the masterscript.
+
+@stop
+
+
+# WhatWillYouDoToday
+
+; Called on every day except during significant story beats (e.g. during the very start and end of the game)
+
+What will you do today?[skipInput]
+
+@choice "Enter the Dungeon." goto:.ChooseSuperstructure
+@choice "Spend time with someone." goto:.ChooseTalking
+@choice "Nothing." goto:.ChooseNothing
+@stop
+;@choice "Do homework." goto:.ChooseHomework
+
+# ChooseSuperstructure
+
+You're sure you want to enter the Dungeon today?[skipInput]
+
+@choice "Yes, I'm ready." goto:EarlyDemo.Introduction
+@choice "No, I've changed my mind." goto:.WhatWillYouDoToday
+@stop
+
+# ChooseTalking
+
+Who do you want to spend time with today?[skipInput]
+
+@if Oscar_SLink<3 
+        @choice "Oscar (Rank: {Oscar_SLink})" goto:SLink_Manager.Oscar
+@endIf
+@if Jasmine_SLink<3
+        @choice "Jasmine (Rank: {Jasmine_SLink})" goto:SLink_Manager.Jasmine
+@endIf
+@if Cloud_SLink<3
+        @choice "Lavinia (Rank: {Cloud_SLink})" goto:SLink_Manager.Cloud
+@endIf
+@choice "Nevermind, I'll do something else." goto:.WhatWillYouDoToday
+@stop
+
+# ChooseHomework
+
+What homework do you want to tackle today?[skipInput]
+
+@choice "Nevermind, I'll do something else." goto:.WhatWillYouDoToday
+@stop
+
+# ChooseNothing
+
+You're deciding not to do anything today?[skipInput]
+
+@choice "Yes, I'm taking a rest."
+@choice "No, I've changed my mind." goto:.WhatWillYouDoToday
+@stop
+
+You decided to take it easy today.
+@set nullval=EndDay();
+@goto MasterScript_I.Start
+
+; Enter Superstructure?
+        ; You could enter the Superstructure.
+        ; Weekdays only (unless the ability to enter the school on the weekend is otherwise available).
+        ; When new dungeon is available the boss at the end must be defeated in a set amount of days.
+        ; If not completed in the given time, Siddh & Emma will discover you. Game Over.
+        ; Having the party wiped will automatically end the day. Wiping on the final remaining day will mean Game Over.
+; Talk to companion?
+        ; You could spend the day talking with a companion.
+        ; May unlock new combat abilities.
+        ; May alleviate stress for both of you.
+        ; May have different events on weekday vs weekend.
+; Do homework?
+        ; You could work on outstanding school tasks. Not completing these will cause stress, negatively affecting your combat ability.
+        ; Depending on your closeness to a companion, you can work together on homework to complete it faster.
+; Clock out for the day?
+        ; You could do nothing for today. May alleviate stress, but otherwise a waste of time.
+
+# GameOver
+
+Game Over. [br]Thank you for playing!
+
+@stop

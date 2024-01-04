@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
+  m_Name: EditorResources
+  m_EditorClassIdentifier: 
+  resourceCategories:
+  - Id: TextPrinters/94c03cb5-a65d-4945-8d59-d0662cd7ab60
+    Resources:
+    - name: Dialogue
+      pathPrefix: TextPrinters
+      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: TextPrinters/80bf30f5-a4e5-401a-9892-24ee0304399d
+    Resources:
+    - name: Fullscreen
+      pathPrefix: TextPrinters
+      guid: c87cebd3f0d4f174789cd351ce9591c4
+  - Id: TextPrinters/0fe066f6-782e-4afb-80ce-32ab2287fc43
+    Resources:
+    - name: Wide
+      pathPrefix: TextPrinters
+      guid: 781828b806deb1e4cbf50ef9de41da10
+  - Id: TextPrinters/edd76aca-d71d-4e88-bec5-ff284d42f66b
+    Resources:
+    - name: Chat
+      pathPrefix: TextPrinters
+      guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
+  - Id: TextPrinters/d91d57d8-ab5d-479f-a0a9-7078ec0532b9
+    Resources:
+    - name: Bubble
+      pathPrefix: TextPrinters
+      guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: TextPrinters/f9a7264e-1f3f-49b2-9ccd-a38d34fdb97b
+    Resources:
+    - name: TMProDialogue
+      pathPrefix: TextPrinters
+      guid: 5838611042eaced44954639c4ea4d81e
+  - Id: TextPrinters/3bf02c6a-b483-4282-9b5f-45f4c7a1c339
+    Resources:
+    - name: TMProFullscreen
+      pathPrefix: TextPrinters
+      guid: a2aaa417785eeca409e78c404f333ee5
+  - Id: TextPrinters/323280bc-6920-4feb-9be9-ee52c8b9feba
+    Resources:
+    - name: TMProWide
+      pathPrefix: TextPrinters
+      guid: 7860ef40eae6a3341be02586f7edd980
+  - Id: TextPrinters/24cd98c5-5ff7-4150-94ce-7352a2bdf674
+    Resources:
+    - name: TMProChat
+      pathPrefix: TextPrinters
+      guid: 6f9836a3c4f777741b1962979d97e485
+  - Id: TextPrinters/87a33408-88fa-4073-aec2-68760f0f6683
+    Resources:
+    - name: TMProBubble
+      pathPrefix: TextPrinters
+      guid: 18cfa78b5fc89b745ba69d51a6a8629a
+  - Id: ChoiceHandlers/c6e5a1dd-9448-44ef-8173-5f8d17eb1319
+    Resources:
+    - name: ButtonList
+      pathPrefix: ChoiceHandlers
+      guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/62e0b389-eb17-4bc5-896e-c1434322e0d9
+    Resources:
+    - name: ButtonArea
+      pathPrefix: ChoiceHandlers
+      guid: 4fa6d62f894ae6e4698bfa8af59e7942
+  - Id: Spawn
+    Resources:
+    - name: Animate
+      pathPrefix: Spawn
+      guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - name: DepthOfField
+      pathPrefix: Spawn
+      guid: ea76638b26a915946b62907dd1e776fd
+    - name: DigitalGlitch
+      pathPrefix: Spawn
+      guid: be75a73ecccb90b4caa5c14edb9ac467
+    - name: Rain
+      pathPrefix: Spawn
+      guid: a9117e2fa90704d45b3e1461596c11ee
+    - name: ShakeBackground
+      pathPrefix: Spawn
+      guid: 9f56c556ba32fd54fae62347c25a8145
+    - name: ShakeCamera
+      pathPrefix: Spawn
+      guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - name: ShakeCharacter
+      pathPrefix: Spawn
+      guid: 1224d69e1592d624cbde93d0f7383d91
+    - name: ShakePrinter
+      pathPrefix: Spawn
+      guid: 2795040988e866646801c80024c50be1
+    - name: Snow
+      pathPrefix: Spawn
+      guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - name: SunShafts
+      pathPrefix: Spawn
+      guid: c4bf810b9b6cc9f44a58fd670678ded4
+    - name: Blur
+      pathPrefix: Spawn
+      guid: e466d9326b30a4b49a3dad428b4d9968
+  - Id: UI
+    Resources:
+    - name: ClickThroughPanel
+      pathPrefix: UI
+      guid: 702c32b2de0c0784b9a66ec90601874f
+    - name: BacklogUI
+      pathPrefix: UI
+      guid: 7fba909c66b25324cb77db18679c2c96
+    - name: CGGalleryUI
+      pathPrefix: UI
+      guid: 71da50c8dae82bd42ba67528804e820c
+    - name: ConfirmationUI
+      pathPrefix: UI
+      guid: 88d03f19bcbff914ba33a7c9895e2d7c
+    - name: ContinueInputUI
+      pathPrefix: UI
+      guid: 1add671f8348e8443bcc56290e82fc5e
+    - name: ExternalScriptsUI
+      pathPrefix: UI
+      guid: 671ceb4f549ddf046913d7debf113469
+    - name: LoadingUI
+      pathPrefix: UI
+      guid: 53aad00e5cf184e458adb001c550518a
+    - name: MovieUI
+      pathPrefix: UI
+      guid: f9a211517d1cb1a44964dc2254463049
+    - name: RollbackUI
+      pathPrefix: UI
+      guid: a32c73a3aff4b274c85b3ff16c854b07
+    - name: SaveLoadUI
+      pathPrefix: UI
+      guid: 8d53726b3d08433479398f02b4780e7f
+    - name: SceneTransitionUI
+      pathPrefix: UI
+      guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - name: SettingsUI
+      pathPrefix: UI
+      guid: 65c37f59e9b266f468dd5381fdc03fc3
+    - name: TipsUI
+      pathPrefix: UI
+      guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - name: TitleUI
+      pathPrefix: UI
+      guid: 4b121aa1be1b7e04480b452c595ff17a
+    - name: VariableInputUI
+      pathPrefix: UI
+      guid: bb95f484e341dcd4391a572f22b7d067
+    - name: PauseUI
+      pathPrefix: UI
+      guid: 480f5db62ea305c46b89a86496d2a0c9
+    - name: ToastUI
+      pathPrefix: UI
+      guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: MasterScript_I
+      pathPrefix: Scripts
+      guid: c1cb7114a3c9d0a45a14d573078a3436
+    - name: OpeningScript
+      pathPrefix: Scripts
+      guid: b75a4dd34199b9d46b85f38ccdbb27d3
+    - name: JAN 2020
+      pathPrefix: Scripts
+      guid: ec53a6c544b730a43a797ebbd304a8f7
+    - name: FEB 2020
+      pathPrefix: Scripts
+      guid: 6b385540c376b4f42afa572b52b10e05
+    - name: MAR 2020
+      pathPrefix: Scripts
+      guid: 12b95c213ccaeb14189de773dc13f2d3
+    - name: APR 2020
+      pathPrefix: Scripts
+      guid: db2ff667e53016448a01d6f540d6a5a0
+    - name: MAY 2020
+      pathPrefix: Scripts
+      guid: 46e782d90b1b79a469b6e0ab51936fd2
+    - name: JUN 2020
+      pathPrefix: Scripts
+      guid: 680b99cf20e374442a33b86cbe938592
+    - name: JUL 2020
+      pathPrefix: Scripts
+      guid: 9cbc7174784d794499cca2e65adb22fc
+    - name: AUG 2020
+      pathPrefix: Scripts
+      guid: 5d67e672484c43c48b8a5cfc20b5e8e1
+    - name: SEP 2020
+      pathPrefix: Scripts
+      guid: a2735a142bce2464082f67de84454c0b
+    - name: OCT 2020
+      pathPrefix: Scripts
+      guid: c17bf2d5a0738f0468c362b252dd40b0
+    - name: NOV 2020
+      pathPrefix: Scripts
+      guid: 86c5a4efdfa71124aa61a4ecbd413d1b
+    - name: DEC 2020
+      pathPrefix: Scripts
+      guid: a19531c41fe4cea43add72cdbf36dce0
+    - name: JAN 2021
+      pathPrefix: Scripts
+      guid: ecddab09d79921e45b57d6d153332b91
+    - name: FEB 2021
+      pathPrefix: Scripts
+      guid: 285f93c52c16f0c44b548f2ad4abf89e
+    - name: MAR 2021
+      pathPrefix: Scripts
+      guid: 75de395cd3dcb0a46818ffc2f48cc958
+    - name: APR 2021
+      pathPrefix: Scripts
+      guid: c5c7be9793e4f584e9edb964811b7207
+    - name: MAY 2021
+      pathPrefix: Scripts
+      guid: 20193a81512cc87478e39401ca4198be
+    - name: JUN 2021
+      pathPrefix: Scripts
+      guid: ce02d012abbd5fc49afcfd4f7538ac84
+    - name: JUL 2021
+      pathPrefix: Scripts
+      guid: 5d018734f8dfd3b479055927f5537b19
+    - name: AUG 2021
+      pathPrefix: Scripts
+      guid: 397e571b17f54d64ca75f6575dd21482
+    - name: SEP 2021
+      pathPrefix: Scripts
+      guid: be43d42e71e2be7449928fcdeeee1761
+    - name: OCT 2021
+      pathPrefix: Scripts
+      guid: 655d2367a2124ee40aa4f038a5dcbcbf
+    - name: NOV 2021
+      pathPrefix: Scripts
+      guid: 85b5b2858be2317488f99068a24257e9
+    - name: DEC 2021
+      pathPrefix: Scripts
+      guid: 046e623d44191ea408bd1ba18bfb9e0b
+    - name: 2020_Magick_Solstice
+      pathPrefix: Scripts
+      guid: 6248d9ccce7bd864594c5f88df8fba3c
+    - name: Bus To School
+      pathPrefix: Scripts
+      guid: 83884f1d4e535c84da25cd82a7c85369
+    - name: Finding The Entrance
+      pathPrefix: Scripts
+      guid: a3ffb942a24f9a447968477123b77874
+    - name: Sep20DD
+      pathPrefix: Scripts
+      guid: 21f582cadbe2e48419f077ae23ed1660
+    - name: Gaining Powers
+      pathPrefix: Scripts
+      guid: 067594adc00152d41ad2ee5166444ecd
+    - name: Meeting Them
+      pathPrefix: Scripts
+      guid: 08d18453c560a60468c7f6fc344ec872
+    - name: EarlyDemo
+      pathPrefix: Scripts
+      guid: 9a7bfae4ae22e4842a4d4b52b8225b82
+    - name: EarlyDemoBRCExhaustFlag
+      pathPrefix: Scripts
+      guid: 568f47d8a2981864da2ce6b5df1c7057
+    - name: Dungeon_Generic
+      pathPrefix: Scripts
+      guid: c980cb70d03df8a45bff736104174266
+    - name: Dungeon 1
+      pathPrefix: Scripts
+      guid: dc5b0aa3119c40b448e1ab45e4e862cf
+    - name: SLink_Manager
+      pathPrefix: Scripts
+      guid: a3760f7b818426243861c569969e4515
+  - Id: CharacterAvatars
+    Resources: []
+  - Id: Characters/656b67f5-9966-446b-8382-88ef069b8c60
+    Resources: []
+  - Id: Characters/f5ae5c0e-6f44-49e5-9d3b-3eff131ed0a2
+    Resources: []
+  - Id: Characters/9326f9b7-d9b4-43cc-9606-6957b2cb1827
+    Resources: []
+  - Id: Characters/7f6d97aa-1970-486c-a41c-c08446c9b322
+    Resources: []
+  - Id: Characters/93878bc0-ea7a-4490-acb2-7e363790a482
+    Resources: []
+  - Id: Characters/196662da-43e0-4e2d-9d86-f68886ae6ac8
+    Resources: []
+  - Id: Characters/6b3cc178-3359-4cb0-a277-01d261e6b18e
+    Resources: []
+  - Id: Characters/9f285d1c-ffef-497a-8620-38a691eb64cc
+    Resources: []
+  - Id: Characters/701d24f5-b728-4691-b419-c870b28fd5e9
+    Resources: []
+  - Id: Characters/f17525f5-7b68-4123-aae2-7cbcda8d9345
+    Resources: []
+  - Id: Backgrounds/22e2c435-15a1-4815-8b7b-69908adc0ad7
+    Resources: []
+  - Id: Audio
+    Resources: []
+  - Id: Backgrounds/7593c8a3-6913-43b9-8739-d825473cba8a
+    Resources:
+    - name: FadeBlack
+      pathPrefix: Backgrounds/BlackScreen
+      guid: 538e252d0b2a1d74dbacd963d856c158
+  - Id: Backgrounds/1d214c81-2efd-404a-b700-6626909b9daa
+    Resources:
+    - name: Landscape
+      pathPrefix: Backgrounds/Landscape
+      guid: 098629708cdde3e49aa2dd35d64a2539
+  - Id: Unlockables
+    Resources: []

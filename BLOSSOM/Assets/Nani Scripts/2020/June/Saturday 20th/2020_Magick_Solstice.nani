@@ -1,0 +1,10 @@
+; 2020 Magick Solstice. Blue waves of light pass through the sky. Siddh tends to Jasmine who is puking into a bucket from a seemingly vicious illness. Emma and Lavinia, who is wrapped in a blanket and appearing to suffer from the same ailment, are sitting in a summoning circle, trying to communicate with an entity which is causing flickering in nearby candles. Stonehenge is shown; a harsh light emanates from the pedestal in the centre. Title Card - "BLOSSOM - First Contact"
+NEW SCENE - Saturday 20th June 2020 - 2020 Magick Solstice
+Blue waves of light pass through the sky.
+Siddh tends to Jasmine who is puking into a bucket from a seemingly vicious illness.
+Emma and Lavinia, who is wrapped in a blanket and appearing to suffer from the same ailment, are sitting in a summoning circle, trying to communicate with an entity which is causing flickering in nearby candles.
+Stonehenge is shown; a harsh light emanates from the pedestal in the centre. 
+Title Card: "BLOSSOM - First Contact"
+@set nullval=SetDate("7","9","2020");
+@goto "MasterScript_I"
+@stop

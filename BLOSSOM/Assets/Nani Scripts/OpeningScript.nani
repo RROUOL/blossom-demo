@@ -1,0 +1,17 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Duran: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Lorelei: Nunc mollis vitae tellus a pharetra. 
+Kaito: Aenean vitae ipsum in est lobortis vulputate a blandit ipsum.
+Oscar: Nullam in felis purus. Donec gravida tincidunt dui, non ultricies lorem. 
+Ali: Proin euismod tellus at iaculis volutpat. 
+Jasmine: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Hope: Nunc mollis vienean vitae ipsum in est lobortis vulputate a blandit ipsum. 
+Cloud: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Siddh: Nunc mollis vitae tellus a pharetra. 
+Emma: Aenean vitae ipsum in est lobortis vulputate a blandit ipsum. 
+@input name summary:"Choose your name." value:Lorelei
+What is your name?
+@stop
+Her name is {name}.
+@print "What a stupid name." if:name=="AAAAAAAA"
+@stop

@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b95b0198841664e8a2955ac1b39a02, type: 3}
+  m_Name: Red Spectre
+  m_EditorClassIdentifier: 
+  entityDescription: MissingReferenceException
+  battleSprite: {fileID: 0}
+  healthBarColour: {r: 1, g: 0, b: 0, a: 0}
+  currentLocation: {fileID: 0}
+  Level: 99
+  PressTurns: 2
+  turnsToGain: 0
+  BurstTurns: 1
+  burstsToGain: 0
+  canMove: 1
+  isGuarding: 0
+  HealthPoints:
+    BaseValue: 999
+    softMaxValue: 999
+    hardMaxValue: 1998
+    MinValue: 1
+    NumOfDecimals: 0
+  ManaPoints:
+    BaseValue: 777
+    softMaxValue: 777
+    hardMaxValue: 1554
+    MinValue: 1
+    NumOfDecimals: 0
+  currentHP: 49
+  currentMP: 24
+  Vigour:
+    BaseValue: 99
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Mind:
+    BaseValue: 99
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Pugilism:
+    BaseValue: 99
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Occultism:
+    BaseValue: 99
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Constitution:
+    BaseValue: 99
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Negation:
+    BaseValue: 99
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Fate:
+    BaseValue: 7
+    softMaxValue: 7
+    hardMaxValue: 14
+    MinValue: 7
+    NumOfDecimals: 7
+  currentPugilism: 0
+  currentOccultism: 0
+  currentConstitution: 0
+  currentNegation: 0
+  Slash: 1
+  Strike: 1
+  Pierce: 1
+  Air: 1
+  Fire: 1
+  Earth: 1
+  Life: 1
+  Ice: 1
+  Lightning: 1
+  Noise: 1
+  AilmentList: []
+  Bleeding: 2
+  isBleeding: 0
+  Burning: 1
+  isBurning: 0
+  Gravitas: 1
+  isGravitated: 0
+  Poison: 1
+  isPoisoned: 0
+  Frostbite: 1
+  isFrostbitten: 0
+  Shock: 1
+  isShocked: 0
+  Stunned: 1
+  isStunned: 0
+  Down: 0
+  isDowned: 0
+  basicAttacks: []
+  moveList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

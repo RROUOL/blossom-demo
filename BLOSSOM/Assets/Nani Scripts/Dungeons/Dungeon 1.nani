@@ -1,0 +1,37 @@
+#OpenChest_Room1_1
+
+The chest is empty...
+@adventure reset:false
+
+#Flick_Switch
+
+You pull the switch.
+@adventure reset:false
+
+#Domain_Door
+
+You feel a terrifying, ice-cold presence from behind this door.
+Are you sure you want to continue?[skipInput]
+@choice "I'm sure." goto:.Domain_Yes
+@choice "I'm not ready yet." goto:.Domain_No
+@stop
+
+# Domain_Yes
+
+The large door slowly beckons open..
+A terrifying presence is approaching!
+@set nullval=StartEncounter(14);
+@adventure reset:false
+@stop
+
+# Domain_No
+
+You've decided not to continue.
+@adventure reset:false
+
+# Victory
+@novel
+You triumphed over the beast before time ran out!
+@goto "MasterScript_I.GameOver"
+
+@stop

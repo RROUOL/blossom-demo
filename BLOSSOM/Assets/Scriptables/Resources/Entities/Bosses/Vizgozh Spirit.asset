@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b95b0198841664e8a2955ac1b39a02, type: 3}
+  m_Name: Vizgozh Spirit
+  m_EditorClassIdentifier: 
+  entityDescription: A visage of the warriors that once terrorised the Magi.
+  battleSprite: {fileID: 21300000, guid: 27fd79b83d3dfb143b659d874dc54f1b, type: 3}
+  healthBarColour: {r: 1, g: 0, b: 0, a: 1}
+  currentLocation: {fileID: 0}
+  Level: 5
+  PressTurns: 4
+  turnsToGain: 0
+  BurstTurns: 1
+  burstsToGain: 0
+  canMove: 1
+  isGuarding: 0
+  HealthPoints:
+    BaseValue: 198
+    softMaxValue: 999
+    hardMaxValue: 1998
+    MinValue: 1
+    NumOfDecimals: 0
+  ManaPoints:
+    BaseValue: 49
+    softMaxValue: 777
+    hardMaxValue: 1554
+    MinValue: 1
+    NumOfDecimals: 0
+  currentHP: 49
+  currentMP: 24
+  Vigour:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Mind:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Pugilism:
+    BaseValue: 13
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Occultism:
+    BaseValue: 10
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Constitution:
+    BaseValue: 8
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Negation:
+    BaseValue: 8
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Fate:
+    BaseValue: 7
+    softMaxValue: 7
+    hardMaxValue: 14
+    MinValue: 7
+    NumOfDecimals: 7
+  currentPugilism: 0
+  currentOccultism: 0
+  currentConstitution: 0
+  currentNegation: 0
+  Slash: 4
+  Strike: 0
+  Pierce: 2
+  Air: 5
+  Fire: 0
+  Earth: 2
+  Life: 5
+  Ice: 2
+  Lightning: 0
+  Noise: 0
+  AilmentList: []
+  Bleeding: 1
+  isBleeding: 0
+  Burning: 0
+  isBurning: 0
+  Gravitas: 0
+  isGravitated: 0
+  Poison: 0
+  isPoisoned: 0
+  Frostbite: 0
+  isFrostbitten: 0
+  Shock: 0
+  isShocked: 0
+  Stunned: 0
+  isStunned: 0
+  Down: 0
+  isDowned: 0
+  basicAttacks:
+  - {fileID: 11400000, guid: ca1cefb95676bcc4f8586bcd364b693f, type: 2}
+  - {fileID: 11400000, guid: a34a219ef9c83fb4d842b50e14a5c2df, type: 2}
+  moveList:
+  - {fileID: 11400000, guid: 0d2fcf0bce69fab44b7aeb5abc02bb98, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  baseMoveWeights: 230000000f0000001900000000000000000000000000000000000000000000000000000000000000

@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a39ffc7949c9f76478a776fa2c0c1964, type: 3}
+  m_Name: Oscar
+  m_EditorClassIdentifier: 
+  entityDescription: 
+  battleSprite: {fileID: 21300000, guid: 317c51e4be1b9ff469761b9add96e675, type: 3}
+  healthBarColour: {r: 1, g: 0.5019608, b: 0, a: 1}
+  currentLocation: {fileID: 0}
+  Level: 5
+  PressTurns: 2
+  turnsToGain: 0
+  BurstTurns: 1
+  burstsToGain: 0
+  canMove: 1
+  isGuarding: 0
+  HealthPoints:
+    BaseValue: 99
+    softMaxValue: 999
+    hardMaxValue: 1998
+    MinValue: 1
+    NumOfDecimals: 0
+  ManaPoints:
+    BaseValue: 49
+    softMaxValue: 777
+    hardMaxValue: 1554
+    MinValue: 1
+    NumOfDecimals: 0
+  currentHP: 99
+  currentMP: 49
+  Vigour:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Mind:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Pugilism:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Occultism:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Constitution:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Negation:
+    BaseValue: 7
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Fate:
+    BaseValue: 7
+    softMaxValue: 7
+    hardMaxValue: 14
+    MinValue: 7
+    NumOfDecimals: 7
+  currentPugilism: 0
+  currentOccultism: 0
+  currentConstitution: 0
+  currentNegation: 0
+  Slash: 1
+  Strike: 1
+  Pierce: 1
+  Air: 1
+  Fire: 2
+  Earth: 1
+  Life: 1
+  Ice: 1
+  Lightning: 1
+  Noise: 0
+  AilmentList: []
+  Bleeding: 0
+  isBleeding: 0
+  Burning: 3
+  isBurning: 0
+  Gravitas: 0
+  isGravitated: 0
+  Poison: 0
+  isPoisoned: 0
+  Frostbite: 0
+  isFrostbitten: 0
+  Shock: 0
+  isShocked: 0
+  Stunned: 0
+  isStunned: 0
+  Down: 0
+  isDowned: 0
+  basicAttacks:
+  - {fileID: 11400000, guid: 2ea1209cba74c1443875dc7939a39770, type: 2}
+  - {fileID: 11400000, guid: 57187567d63064f46b11b1c71f68e9de, type: 2}
+  moveList:
+  - {fileID: 11400000, guid: 87a5f02fa8df9e34193d1488eb8b9de4, type: 2}
+  - {fileID: 11400000, guid: 11d4f90da0b6fe1439ff56c064728842, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  seenName: Oscar
+  equippedItems:
+  - {fileID: 0}
+  baseSlash: 1
+  baseStrike: 1
+  basePierce: 1
+  baseAir: 1
+  baseFire: 2
+  baseEarth: 1
+  baseLife: 1
+  baseIce: 1
+  baseLightning: 1
+  baseNoise: 0

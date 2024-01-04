@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b95b0198841664e8a2955ac1b39a02, type: 3}
+  m_Name: Black Beast
+  m_EditorClassIdentifier: 
+  entityDescription: A beast which stalks the cliffsides of __. Has terrifying mastery
+    over the ice zodiac.
+  battleSprite: {fileID: 21300000, guid: 8a08ec8e0ff5570479a381db930de802, type: 3}
+  healthBarColour: {r: 0.3764706, g: 0.7529412, b: 1, a: 1}
+  currentLocation: {fileID: 0}
+  Level: 10
+  PressTurns: 4
+  turnsToGain: 0
+  BurstTurns: 1
+  burstsToGain: 0
+  canMove: 1
+  isGuarding: 0
+  HealthPoints:
+    BaseValue: 299
+    softMaxValue: 999
+    hardMaxValue: 1998
+    MinValue: 1
+    NumOfDecimals: 0
+  ManaPoints:
+    BaseValue: 149
+    softMaxValue: 777
+    hardMaxValue: 1554
+    MinValue: 1
+    NumOfDecimals: 0
+  currentHP: 249
+  currentMP: 149
+  Vigour:
+    BaseValue: 14
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Mind:
+    BaseValue: 14
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Pugilism:
+    BaseValue: 14
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Occultism:
+    BaseValue: 21
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Constitution:
+    BaseValue: 14
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Negation:
+    BaseValue: 11
+    softMaxValue: 99
+    hardMaxValue: 198
+    MinValue: 1
+    NumOfDecimals: 0
+  Fate:
+    BaseValue: 7
+    softMaxValue: 7
+    hardMaxValue: 14
+    MinValue: 7
+    NumOfDecimals: 7
+  currentPugilism: 0
+  currentOccultism: 0
+  currentConstitution: 0
+  currentNegation: 0
+  Slash: 1
+  Strike: 1
+  Pierce: 0
+  Air: 1
+  Fire: 0
+  Earth: 1
+  Life: 3
+  Ice: 5
+  Lightning: 1
+  Noise: 1
+  AilmentList: []
+  Bleeding: 0
+  isBleeding: 0
+  Burning: 0
+  isBurning: 0
+  Gravitas: 0
+  isGravitated: 0
+  Poison: 0
+  isPoisoned: 0
+  Frostbite: 2
+  isFrostbitten: 0
+  Shock: 0
+  isShocked: 0
+  Stunned: 0
+  isStunned: 0
+  Down: 0
+  isDowned: 0
+  basicAttacks:
+  - {fileID: 11400000, guid: 957dacadf5e47664387eb6a3aef7fa59, type: 2}
+  - {fileID: 11400000, guid: ae7a868aca83dff46a6e7bca3fe8ccb3, type: 2}
+  moveList:
+  - {fileID: 11400000, guid: b282b67af81168947bf74f372086b295, type: 2}
+  - {fileID: 11400000, guid: ca1cefb95676bcc4f8586bcd364b693f, type: 2}
+  - {fileID: 11400000, guid: 2e330e841cc9fe54faa1e009001ed57c, type: 2}
+  - {fileID: 11400000, guid: 0d2fcf0bce69fab44b7aeb5abc02bb98, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  baseMoveWeights: 230000001e0000005a000000320000002d0000002800000000000000000000000000000000000000

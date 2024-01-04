@@ -1,0 +1,16 @@
+
+Player is prompted to save the game.
+
+@wait 2
+Duran: {G_PlayerName}..
+
+..! A voice?
+
+Duran: You can hear me. That's a relief.
+Duran: You aren't dead. Dont worry.
+
+Your eyes begin to adjust to the light, your surroundings begin to clear up.
+You're standing in a flower field.
+
+
+@stop

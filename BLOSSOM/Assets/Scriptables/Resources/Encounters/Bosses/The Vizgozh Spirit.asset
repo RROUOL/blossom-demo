@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eab44fc98c835c479bd7bf49940cab6, type: 3}
+  m_Name: The Vizgozh Spirit
+  m_EditorClassIdentifier: 
+  isBoss: 1
+  encounterText: The Vizgozh silently stands guard..
+  encounter:
+  - {fileID: 11400000, guid: 2d5161137fdfc6144a61062194a6ac56, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  planeMat: {fileID: 0}
+  skyboxMat: {fileID: 2100000, guid: 0900bd04018a4f34bacbafbcd37a855a, type: 2}
+  music: {fileID: 8300000, guid: af5e363fbcb717d44b824268ad173de9, type: 3}
+  enemySound: {fileID: 8300000, guid: 803068a7042629241aa9c8c755851165, type: 3}
+  playVictoryScript: 0
+  script: 
+  label: 

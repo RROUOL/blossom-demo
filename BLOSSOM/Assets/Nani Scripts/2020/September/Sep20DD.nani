@@ -1,0 +1,65 @@
+; Dialogue for all in-dungeon interactions in september 2020
+
+; generic dialogue which will always appear regardless of day
+
+; monday 7th
+
+# 7thElevator
+You can't go back yet. There's something you need to see here.
+You know it.
+@set "nullval=BeginTeleport(0,0,2, 0,-180,0);"
+@adventure reset:false
+
+# 7thWhatsThis
+Oscar: We should really go back, okay? I don't like this.
+@adventure reset:false
+
+
+; tuesday 8th
+
+; wednesday 9th
+
+; thursday 10th
+
+; friday 11th
+
+; saturday 12th
+
+; sunday 13th
+
+; monday 14th
+
+; tuesday 15th
+
+; wednesday 16th
+
+; thursday 17th
+
+; friday 18th
+
+; saturday 19th
+
+; sunday 20th
+
+; monday 21st
+
+; tuesday 22nd
+
+; wednesday 23rd
+
+; thursday 24th
+
+; friday 25th
+
+; saturday 26th
+
+; sunday 27th
+
+; monday 28th
+
+; tuesday 29th
+
+; wednesday 30th
+
+
+@stop

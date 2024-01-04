@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59fabeeb375c3c141b1f101f934eb811, type: 3}
+  m_Name: Blossom 1 First Contact Databank
+  m_EditorClassIdentifier: 
+  heroesBank:
+  - {fileID: 11400000, guid: e47c6b39b7b6e6946af0b81f6788f342, type: 2}
+  - {fileID: 11400000, guid: ff8742e99cfce4b42adaac0f6a92164e, type: 2}
+  - {fileID: 11400000, guid: 7f8086820d6a9f3428e877a47a44a613, type: 2}
+  - {fileID: 11400000, guid: 40c865f55f021f74e98b284e54f60293, type: 2}
+  encounterBank:
+  - {fileID: 11400000, guid: cac92c934e6cccf4eb6cab9be9921b06, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 3ffe339b5408bc6449e42614aaec2f7b, type: 2}
+  movesBank:
+  - {fileID: 11400000, guid: 615b950ccb7133642974b486db762b55, type: 2}
+  - {fileID: 11400000, guid: 957dacadf5e47664387eb6a3aef7fa59, type: 2}
+  - {fileID: 11400000, guid: 2ea1209cba74c1443875dc7939a39770, type: 2}
+  - {fileID: 11400000, guid: e9949d2d36ae34a42a4dbe682b394978, type: 2}
+  - {fileID: 11400000, guid: a34a219ef9c83fb4d842b50e14a5c2df, type: 2}
+  - {fileID: 11400000, guid: 57187567d63064f46b11b1c71f68e9de, type: 2}
+  - {fileID: 11400000, guid: c1597d42abd75d445b294fd7fce425ea, type: 2}
+  - {fileID: 11400000, guid: 5fbd68ed9b550e94e81096aed8341f93, type: 2}
+  - {fileID: 11400000, guid: ae7a868aca83dff46a6e7bca3fe8ccb3, type: 2}
+  - {fileID: 11400000, guid: b2ee5b27771e7844faf81f3e6fd9dd3f, type: 2}
+  - {fileID: 11400000, guid: c519f6d3a4332d1468b9be8ae8d65e0c, type: 2}
+  - {fileID: 11400000, guid: 0d2fcf0bce69fab44b7aeb5abc02bb98, type: 2}
+  - {fileID: 11400000, guid: 45e70fa48a1bd17449273a4c9c5c9fb1, type: 2}
+  - {fileID: 11400000, guid: ba3257e622842df4abbee144f3e08e6b, type: 2}
+  - {fileID: 11400000, guid: 2df38d3243e914f4aaf44ba0f4bbfde0, type: 2}
+  - {fileID: 11400000, guid: 87a5f02fa8df9e34193d1488eb8b9de4, type: 2}
+  - {fileID: 11400000, guid: 6e10cd7e97cf57b4d980e66187623350, type: 2}
+  - {fileID: 11400000, guid: d2492687e38e4034b951bff7626fa211, type: 2}
+  - {fileID: 11400000, guid: 2e330e841cc9fe54faa1e009001ed57c, type: 2}
+  - {fileID: 11400000, guid: e3b1f7771f19ac944a3f7f7f1469e3c7, type: 2}
+  - {fileID: 11400000, guid: bac75222fc09e6f479b878ac2dc59b45, type: 2}
+  - {fileID: 11400000, guid: b1116cda31adf104fb1846077f515980, type: 2}
+  - {fileID: 11400000, guid: 11d4f90da0b6fe1439ff56c064728842, type: 2}
+  - {fileID: 11400000, guid: f1c65c940735ed345b194578fda13d8a, type: 2}
+  - {fileID: 11400000, guid: d92c761f93c710649ae5284644a0381e, type: 2}
+  - {fileID: 11400000, guid: 36c0e35c1d88a2540a74cded9a0b2459, type: 2}
+  - {fileID: 11400000, guid: 3d32c8808f47dbb4bb8e9c7a09372fc6, type: 2}
+  - {fileID: 11400000, guid: 445d0f46fd24f6d45b95d3b89c8e24b3, type: 2}
+  - {fileID: 11400000, guid: ca1cefb95676bcc4f8586bcd364b693f, type: 2}
+  - {fileID: 11400000, guid: b282b67af81168947bf74f372086b295, type: 2}
+  - {fileID: 11400000, guid: 7be89ce22255fec44b2c7dcad142a911, type: 2}
+  dungeonsBank:
+  - {fileID: 0}
+  keysBank: []
+  consumaBank: []
+  equipBank: []

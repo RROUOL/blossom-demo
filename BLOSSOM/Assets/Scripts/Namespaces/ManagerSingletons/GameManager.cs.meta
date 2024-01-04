@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 56e1a08b717458b42a62d0a0f5555ea1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - defaultChar: {instanceID: 0}
+  - currentEncounter: {instanceID: 0}
+  - playerObj: {instanceID: 0}
+  - dungeonMovement: {instanceID: 0}
+  - cameraObj: {instanceID: 0}
+  - distortCam: {instanceID: 0}
+  - currentPlaneMat: {instanceID: 0}
+  - currentSkyboxMat: {instanceID: 0}
+  - currentMusic: {instanceID: 0}
+  - SFXplayer: {instanceID: 0}
+  - BGMplayer: {instanceID: 0}
+  - DIAplayer: {instanceID: 0}
+  - battleStart: {instanceID: 0}
+  - click: {fileID: 8300000, guid: 08140875427051b4d8a15ff055fbdbf9, type: 3}
+  - openMenu: {fileID: 8300000, guid: 80cfa7b06041f6644a811e05f11ddd5f, type: 3}
+  - closeMenu: {fileID: 8300000, guid: 1815f0759ddb54048bd644be6e30ca3b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

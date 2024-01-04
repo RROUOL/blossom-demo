@@ -1,0 +1,14 @@
+; 
+NEW SCENE - Monday 7th September 2020 - Bus To School
+Monday morning, on the bus to Blossom Secondary School. 
+You are Lorelei (or whatever the player chooses to name themselves). 
+You are given the option to skip to Thursday 10th September, when the gameplay loop properly begins. Otherwise you begin the full introduction + tutorial.
+As you get off the bus at the school, someone recognises and greets you: Oscar! 
+Oscar was someone who'd always talk to you, and never minded that you didn't talk back. He's outgoing, kindhearted and one of your only friends. 
+You both are in the same homeroom class, and thus walk there together.
+You look over and see two other kids - Jasmine & Lavinia. Oscar explains that they're new to the town as a whole, having moved here less than a month ago. 
+After homeroom, you and Oscar go to talk to them. They're cold and rude, barely speaking at all.
+They leave. Oscar is noticeably upset. He chalks it up to "us being all grown up now" and therefore not having time to talk.
+You all head separate ways, and travel home.
+@goto "Finding The Entrance"
+@stop
